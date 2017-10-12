@@ -1,0 +1,73 @@
+Start Date,End Date,Headline,Text,Media,Media Credit,Media Caption,Media Thumbnail,Type,Tag
+05/15/2014,01/31/2015,Masters Project: Information Retrieval System,"<p>Information retrieval system to find top related historical helpdesk tickets for a requested subject. The final implementation of this project is a simplified form of a search engine.</p>
+<p>The system has two core components:</p>
+<p>
+1. A distributed inverted index.<br>
+2. Java API for query processing and documents searching using vector space model.<br>
+</p>
+<p>The project gave me the opportunity to learn and develop knowledge in the following areas:</p>
+<p><strong><em>Theoretical:</em></strong><br>
+An in-depth theoretical understanding of designing and implementing systems for gathering, indexing and searching documents at massive scale; methods for evaluating the system and how to use machine learning for text clustering and classification.</p>
+<p><strong><em>Technical:</em></strong></p>
+1. Java programming.<br>
+2. MapReduce programming paradigm; building MapReduce jobs for analyzing the ingested text, indexing and weighting document terms based on a customized version of TF-IDF model.<br>
+3. Extensive knowledge in using regular expressions.<br>
+4. <a href=""https://lucene.apache.org/"">Apache Lucene</a>; built a customized implementation of a text analyzer.<br>
+5. Hadoop Operations; setting up, maintaining and monitoring a Hadoop Cluster.<br>
+6. Using Apache Sqoop to ingest data from RDBMS to HDFS.<br>
+
+<br>
+This is the <a href=""https://github.com/Ridooo/Relevant-Document-Retrieval-Solution"">GitHub</a> respository of the source code.
+",,,,,title,
+02/02/2015,03/15/2015,Data Science pipeline,"<p>The successful work on building retrieval system allowed me to discover my passion for working with data. Therefore, I decided to feed this appetite by boasting my knowledge in data science. I wanted to learn how data science pipelines are constructed in real-word. I found the book <a href=""https://www.packtpub.com/big-data-and-business-intelligence/practical-data-science-cookbook"">Practical Data Science Cookbook</a> is a good source for that as it allowed me to practice six real-world data science projects using R programming language.</p>
+<p><strong><em>The gratitude is for this book for :</em></strong></p>
+<p>- Enhancing my programming skills in R.<br>
+- Introducing a variety of techniques to acquire the data from RESTful APIs, web, HDFS, flat files and more.<br>
+- learning how to clean, wrangle and, munging datasets using packages dplyr, reshape2, tidyr, stringr<br>
+- learning how to explore the statistical relationship between variables using machine learning unsupervised algorithms like clustering and classify.<br>
+- How to make complex data visualizations and animations using ggplot2.<br>
+- How to conduct geospatial analysis<br>
+- Creating predictive models like linear regression.</p>
+",,,,,,
+04/15/2015,10/15/2015," Statistics 101, inference statistics and Leaner Regression.","<p>After studying the book <a href=""https://www.packtpub.com/big-data-and-business-intelligence/practical-data-science-cookbook"">Practical Data Science Cookbook</a>, I realized that I need to update and improve my statistical knowledge because I faced difficulties understanding basic statistics concepts. I overcame these challenges by accomplishing the following courses:</p>
+<ol>
+<li>1. <a href=""https://www.youtube.com/user/BCFoltz/playlists"">Statistics 101</a></li>
+<li>2. <a href=""https://www.coursera.org/learn/statistical-inference/home/info"">Statistical Inference</a></li>
+<li>3. <a href=""https://www.coursera.org/learn/regression-models/home/info"">Regression Models</a></li>
+</ol>",,,,,,
+11/01/2015,07/31/2016,Machine Learning,"<p>The first time I heard about the ability of computer to understand the identify function in a dataset, a great fondness was risen inside me to learn about machine learning. However, this thirstiness of gaining knowledge was stumbled by my modest level of experience in statistics. It was difficult for me to comprehend how those machine learning models are constructed.</p>
+<p>After accomplishing the two courses ( Statistics 101, inference statistics) and I dived in machine learning with great passion. First I started with learning <a href=""https://www.coursera.org/learn/regression-models/home/welcome"">Regression Models</a> from Coursera course. This followed by another Coursera course <a href=""https://www.coursera.org/learn/practical-machine-learning/home/welcome"">Practical Machine Learning</a>. After that, I wanted to understand in-depth the theory behind all learned models. For this purpose, I found <a href=""https://www.springer.com/gb/book/9781461471370"">ISLR</a> is an excellent source.</p>
+<p>After all these self-study and lab practicing, I become confident with using and applying a wide range of supervised and unsupervised machine learning models and statistical techniques in R:</p>
+<ol>
+<li>Linear models: Linear and Logistic Regression, LDA, QDA, and KNN</li>
+<li>Resampling Methods (CV and Bootstrapping)</li>
+<li>Dimensionality reduction (PCA), Shrinkage Methods (LASSO and Ridge Regression) and K-Means/Hierarchical Clustering</li>
+<li>Regression Splines, Smoothing splines, GAM</li>
+<li>Tree-based methods: Regression/classification Tree, Bagging, Random Forests, Boosting</li>
+<li>Support Vector Machines</li>
+</ol>
+",,,,,,
+06/15/2016,9/15/2016,Building monitoring dashboards using ELK Stack,"<p>This is my first data science commercial project.The goal was to transefer unstructered operational log event data to structered data that can be used to generate statatsics about most crtirial business and technical metrices related to a production system. Real-time monitoring dashboards were structred to combine all metrices' visiulizations.</p>
+<br>
+<p>A data science pipeline was built using ELK Stack to deliver performance information in real-time. It has the following flow:</p>
+<ol>
+<li>Filebeat to stream event logs to logstash.</li>
+<li>A logstash that captures the relevant log events &gt;&gt; Structures them into fields &gt;&gt; Performs data cleaning &gt;&gt; Indexes the structured data into Elasticsearch.</li>
+<li>Kibana used to read from Elasticsearch indexes &gt;&gt; build matrices by aggregating data &gt;&gt; create summary tables, charts and time services graphs.</li>
+</ol>
+
+<p>This ELK system was deployed in all banks in Qatar to monitor a crtical production system that is used to exchange salaries information files between the banks through central banking unit.</p>
+
+",,,,,,
+06/01/2017,07/31/2017,Getting and Cleaning Data & Exploratory Data Analysis,"<p>Despite my familiarity with the contents of these two Coursera courses, I decided to enroll and accomplish them to stop the eroding that attacks my knowledge and skills in these areas to due to lack participation in data science real projects.</p>
+<p>In Exploratory Data Analysis, I solidified my experience in three plotting systems; base plot, lattice and importantly ggplot. I mainly focused on ggplot as it is easier and more intuitive to use. The course was also a great opportunity to review and practice dimensional reduction techniques such as PCA and SVD as well as k-means and hierarchical clustering.</p>
+<p>In Getting and Cleaning data course; I mainly focused on tidying data framework and applying it using “tidyr” and “dplyr” packages.</p>
+",,,,,,
+07/31/2017,12/31/2017,Deep Learning,"<p>I have started my learning journey in deep learning from <a href=""https://web.stanford.edu/~hastie/ElemStatLearn/"">The Elements of Statistical Learning</a> where I got an in-depth theoretical coverage of deep neural networks. Then I moved to <a href=""https://www.packtpub.com/big-data-and-business-intelligence/r-deep-learning-essentials"">R Deep Learning Essentials</a> book to learn how to train and use deep learning models, optimize their hyperparameters to improve accuracy.</p>
+<p>Technically,  I learned how to craft deep learning models using two different libraries; <a href=""https://www.h2o.ai/"">H2O</a> and R packages <em>deepnet</em>, <em>RSNNS</em>.</p>
+",,,,,,
+08/01/2017,12/31/2017,PS-Insights for Operational Log Analytics using ELK Stack,"<p>This is another log analytics project I am currently working on as part of my work in ProgressSoft. The idea is to utilize <a href=""https://www.elastic.co/webinars/introduction-elk-stack"">ELK</a> Stack to automate the common log analysis steps that are regularly conducted during production incidents troubleshooting. The goal is to expedite and kill repetitive production incidents troubleshooting works.</p>
+<p>For example; a payment system is integrated with core banking system to post the received financial transactions. Sometimes posting process fails for different reasons (ex; network disconnection, CBS timed out,…etc.).</p>
+<p>Every time the support engineer works on such incidents has to analyze the log to identify the cause of failure. With PS-Insights, the engineer only needs to look at visualization summaries to know the cause.  PS-Insights, through its Logstash, structures, and aggregates in real-time and provided graphic visualizations through Kibana.</p>
+<p>PS-Insight is also developed to be intelligent in a way to alert when abnormal application errors appear in the log. In addition to other functionalities that proactively help to identify performance issues. PS-Insight also provides workaround solutions for cases that are presumed to be handled by the application code.</p>
+<p>I am responsible for the entire work of this project inclduing designing, development, and deployment.</p>",,,,,,
